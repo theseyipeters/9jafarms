@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fefae0;
+}
+
+header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px; 
+    margin-left: 50px; 
+}
+
+.first-section{
+    display: flex;
+    width: 300px;
+    align-items: center;  
+}
+
+.first-section img{
+    width: 125px;
+    height: 48px;
+    margin-right: 30px;    
+}
+
+.middle-section{
+    flex: 1;
+    max-width: 650px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+a{
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #51752d;
+    font-weight: 700;
+    text-decoration: none;
+}
+ .middle-section a img{
+    padding-left: 5px;
+ }
+
+ .dropdown{
+    position: relative;
+    display: inline-block;
+ }
+
+ .dropbtn{
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    color: #51752d;
+    font-weight: 700;
+    background: #fefae0;
+    padding: 16px;
+    margin: 0;
+ }
+.Products:hover
+.dropbtn, .dropbtn:focus{
+    background-color: white;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(o, 0, 0, 0.2);
+    z-index: 1;
+ }
+
+ .dropdown-content a{
+    color: #51752d;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+ }
+
+.dropdown-content a:hover{
+    background-color: #b76b26;
+ }
+
+ .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+ .dropdown:hover .dropbtn {background-color: #fefae0;}
+
+
+.right-section{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.login{
+    background-color: #b76b26;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.register{
+    background-color: #51752d;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    color: white;
+    padding: 10px 30px;
+    margin: 0 40px 0 5px;
+}
+
+.container{
+    position: relative;
+}
+  .container img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    margin-top: 10px;
+    
+}
+
+.container-details h3{
+    font-size: 28px; 
+    font-family: 'Space Grotesk', sans-serif;
+   font-weight: 700;
+   text-align: center;
+    color: white;  
+padding-top: 80px;
+
+position: absolute;
+bottom: 70%;
+left: 35%;
+
+}
+
+.container-details p{
+    font-size: 16px; 
+    font-family: 'Space Grotesk', sans-serif;
+   font-weight: 700;
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+
+
+    position: absolute;
+    bottom: 65%;
+    left: 38%;
+}
+
+.farmer{
+    border-radius: 4px;
+    padding: 10px 250px;
+    font-size: 14px;
+    vertical-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    background-color: #b76b26;
+    font-size: 14px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.consumer{
+    padding: 10px 240px;
+    font-size: 14px;
+    vertical-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #fefae0;
+    font-size: 14px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 49%;
+    left: 25%;
+}
+.next{
+    border-radius: 4px;
+    padding: 10px 35px;
+    font-size: 14px;
+    vertical-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fefae0;
+    background-color: #b76b26;
+    font-size: 14px;
+    font-weight: 700;
+
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}

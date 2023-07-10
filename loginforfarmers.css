@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fefaf0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 50px;
+    height: 700px;
+}
+
+.container-image img{
+    width: 700px;
+    aspect-ratio: 1/1;
+}
+.container-details{
+    line-height: 8px;
+}
+
+.container-details .setup{
+    font-size: 25px; 
+    font-family: 'Space Grotesk', sans-serif;
+   font-weight: 700;
+   text-align: center;
+    color:  #51752d;  
+padding-top: 120px;
+
+}
+
+.container-details .already{
+    font-size: 16px; 
+    font-family: 'Space Grotesk', sans-serif;
+   font-weight: 500;
+    color:  #51752d;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 35px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-left: 130px;
+    border: 1px solid #51752d;
+    border-radius: 4px;
+    width: 375px;
+    padding: 10px 0px;
+}
+
+.name::placeholder{
+    font-size: 12px; 
+    font-family: 'Space Grotesk', sans-serif; 
+    padding-left: 5px;
+}
+
+.section{
+    display: inline-block;
+    font-size: 14px; 
+    font-family: 'Space Grotesk', sans-serif; 
+    color: #51752d; 
+
+}
+
+.checkbox{
+    display: inline-block;
+    margin-left: 130px; 
+    color: #51752d; 
+}
+
+.forgot{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.forgot a{
+    text-decoration: none;
+    font-size: 14px; 
+    font-family: 'Space Grotesk', sans-serif; 
+    color: #51752d; 
+}
+ .login{
+    margin-top: 25px;
+    margin-left: 130px;
+    border-radius: 4px;
+    padding: 9px 170px;
+    font-size: 14px;
+    vertical-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    background-color: #b76b26;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.by{
+    font-size: 14px; 
+    font-family: 'Space Grotesk', sans-serif;
+   font-weight: 300;
+   text-align: center;
+padding-top: 20px;
+color: #51752d;
+text-align: center;
+line-height: 20px;
+}
+
+.by a{
+
+    font-size: 14px; 
+        font-family: 'Space Grotesk', sans-serif;
+       font-weight: 700;
+       color: #51752d;
+    }

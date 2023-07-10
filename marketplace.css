@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px; 
+    margin-left: 70px;  
+    margin-right: 70px;
+    padding-bottom: 70px;   
+}
+
+
+.left-section{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.left-section img{
+    margin:  o 10px;
+}
+
+.left-section a{
+font-size: 18px;
+font-family: 'Space Grotesk', sans-serif;
+color: #51752d;
+font-weight: 600;
+text-decoration: none;
+vertical-align: top;
+padding-left: 10px;
+}
+
+
+.middle-section{
+    display: flex;
+    width: 300px;
+    align-items: center;  
+}
+
+.middle-section img{
+    width: 127px;
+    height: 55.81px;
+    padding-left: 50px;    
+}
+
+.right-section{
+    flex: 1;
+    margin-left: 70px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 16px;
+    border: 1px solid #51752d ;
+    border-radius: 5px;
+    background-color: white;
+    }
+    .search::placeholder{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    .right-section-search{
+        position: relative;
+    }
+
+.search-icon{
+    position: absolute;
+    height: 15px;
+   bottom: 30%;
+   right: 15%;
+}
+
+.user{
+    height: 45px;
+    padding-left: 20px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.basket{
+    height: 40px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+.container{ 
+    opacity: 0.5;
+    margin-left:  70px;
+    width: 90%;
+    object-fit: cover;
+     margin-right:  50px;
+}
+
+ .title{ 
+    position: absolute;
+    right: 30%;
+     top: 10%;
+
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #51752d;
+    font-weight: 700;
+    padding-top: 150px;
+}
+
+
+.buy{
+    position: absolute ;
+    right: 50%;
+    bottom: 40%;
+
+    background-color: #51752d;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 15px;  
+   
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.first-section{
+    flex: 1;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first-section-categories,
+.first-section-price,
+.first-section-weight,
+.first-section-date,
+.first-section-discount,
+.first-section-all{
+    position: relative;
+}
+
+.categories,
+.price,
+.weight,
+.date,
+.discount,
+.all
+{
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 25px;
+    font-size: 18px;
+    background-color: #e7f1dd;
+    border: 1px solid #51752d ;
+    border-radius: 5px;
+    color: #51752d;
+    font-weight: 500;
+   
+
+}
+
+.sort-categories{
+    position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -35%;
+   margin-right: 50px;
+}
+.sort-price{
+    position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -58%;
+   margin-right: 50px;
+}
+
+.sort-weight{
+
+    position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -48%;
+   margin-right: 50px;
+}
+
+.sort-date{
+    position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -28%;
+   margin-right: 50px;
+}
+
+.sort-discount {
+position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -43%;
+   margin-right: 50px;
+}
+
+.sort-all{
+    position: absolute;
+    height: 15px;
+   bottom: 35%;
+   right: -45%;
+   margin-right: 50px;
+}
+
+.second-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+.second-section-sort{
+    position: relative;
+}
+
+.sort{
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 25px;
+    font-size: 18px;
+    border: 1px solid #51752d ;
+    border-radius: 5px;
+    color: #51752d;
+    font-weight: 500;
+    background-color: white;
+
+}
+
+.sort-icon{
+    position: absolute;
+    height: 15px;
+    bottom: 35%;
+    right: 5%;
+}
+
+
+
+#Fruits, 
+#Vegetables, 
+#Foods{
+    scroll-behavior: float;
+}
+
+.fruit-section,
+.vegetables-section,
+.food-section,
+.popular-section{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-fruit-section,
+.sub-vegetables-section,
+.sub-food-section,
+.sub-popular-section{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+.fruit,
+.vegetables,
+.food,
+.popular{
+    display: flex;
+    flex: 1;
+    font-size:  30px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #51752d;
+    font-weight: 700;
+    font-style: bold;
+    margin-top: 5px;
+    vertical-align: top;
+    margin-left: 35px;
+}
+.fruit-row,
+.vegetables-row,
+.food-row,
+.popular-row,
+.services-section{
+    margin-left: 50px;
+}
+.fruit-row img,
+.vegetables-row img,
+.food-row img,
+.popular-row img{
+    width: 282px;
+    height: 550px;
+    padding-right: 25px;
+}
+
+ .info{
+    display: flex;
+    font-size:  25px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #51752d;
+    font-weight: 300;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 50px;
+   
+}
+
+.image{
+    padding-left: 600px;
+    margin-bottom: 20px;
+}
+
+.services-container{
+    margin-left: 50px;
+
+}
+
+.services {
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size:  28px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.services-section img{
+    width: 390px;
+    aspect-ratio: 1/1;
+    padding-right: 10px;
+    margin-bottom: 50px;
+
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+.contact-section{  
+   flex: 1;
+   margin-left: 50px;
+   line-height: 20px;
+
+}
+.contact-section h2{
+    margin-left: 50px;
+ font-family: 'Space Grotesk', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.contact-section p{
+    margin-left: 50px;
+     font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    color: #51752d;
+
+}
+
+.back{
+    margin-right: 90px;
+}
+
+.back img{
+      width: 100px;
+  aspect-ratio: 1/1;
+}
+
+
+footer{
+    background: #000000;
+    width: 100%;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.farm-info{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.first-segment{
+    flex: 1;
+    margin-left: 50px;
+}
+
+.farm-logo{
+    width: 190px;
+    height: 83px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.search-bar{
+    height: 38px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    }
+    .search-bar::placeholder{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+.subscribe{
+    height: 40px;
+    background-color: #517520;
+    border: none;
+    margin-left: -5px;
+    margin-right: 10px;
+    border-radius: 2px;
+    color: white;
+}
+
+.social-media-icon{
+    flex: 1;
+    display: flex;  
+    padding-left:10px;
+}
+
+.social-media-icon a img{
+    width: 30px; 
+    height: 30px; 
+    margin-left: 20px;
+    margin-right: 10px; 
+}
+
+.first-segment p{
+    font-size: 20px; 
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.products-features-first{
+    padding-top: 50px;
+     width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    
+    
+
+}
+.products-features-second{
+     padding-top: 50px;
+     width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+  
+}
+
+.company{
+     padding-top: 50px;
+     width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2px;
+  
+}
+
+.products-features-first h3,
+.products-features-second h3,
+.company h3{
+    font-size: 16px; 
+    font-family: 'Space Grotesk', sans-serif;
+}
+.products-features-first ul,
+.products-features-second ul,
+.company ul
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px; 
+    list-style: none;
+    padding-left: 5px;
+    line-height: 25px;
+
+}
+
+.last-segment p{
+    font-size: 12px; 
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px 0;
+}
