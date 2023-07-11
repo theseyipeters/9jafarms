@@ -45,7 +45,7 @@ a{
     font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
     color: #51752d;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
  .middle-section a img{
@@ -55,6 +55,7 @@ a{
  .dropdown{
     position: relative;
     display: inline-block;
+    /* transition: .4s; */
  }
 
  .dropbtn{
@@ -63,14 +64,16 @@ a{
     font-family: 'Space Grotesk', sans-serif;
     border: none;
     color: #51752d;
-    font-weight: 700;
+    font-weight: 400;
     background: #fefae0;
     padding: 16px;
     margin: 0;
+
  }
 .Products:hover
 .dropbtn, .dropbtn:focus{
     background-color: white;
+
 }
 
 .dropdown-content{
@@ -89,10 +92,12 @@ a{
     text-decoration: none;
     display: block;
     font-size: 14px;
+    transition: .4s;
  }
 
 .dropdown-content a:hover{
-    background-color: #b76b26;
+    background-color: #517520;
+    color: #fff;
  }
 
  .dropdown:hover .dropdown-content{
@@ -167,14 +172,18 @@ a{
 
 
 .text h2{
-    font-size: 28px;
+    font-size: 40px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    color: red;
-    width: 400px; 
+    color: #b76b26;
+    width: 600px; 
     margin: 70px auto 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: 25px;
+    line-height: 45px;
+    letter-spacing: -1.5px;
 }
 
 
@@ -182,21 +191,25 @@ a{
     display: relative;
     color: white;
     background-color: #51752d;
-    padding: 8px 20px 8px 8px;
+    padding: 15px 20px;
     font-size: 14px;
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     margin-left: 430px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
 }
 
 .first-container{
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;   
 }
 
 .first-container .first-content h2{
-   font-size: 20px;
+   font-size: 25px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     color: #51752d;
@@ -207,20 +220,23 @@ a{
 }
 
 .first-container  .first-content p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
     margin-left: 60px;
-    width: 400px;
+    width: 600px;
     line-height: 25px;
+    text-align: justify;
     color: #777777;
 }
 .first-container .first-content .get{
     margin-left: 60px;
     background-color: #51752d;
     color:  white;
-    padding:8px 30px 8px 8px;
+    padding: 15px 25px;
     margin-bottom: 80px;
+    border: none;
+
 }
 .first-container .image{
     background: #51752d;
@@ -248,14 +264,15 @@ a{
 }
 .second-container{
     display: flex;
+    padding: 20px 0;
     flex-direction: row;
     justify-content: space-between; 
-    background-color: #bed4a8;
+    background-color: #e6f6d6;
     height: 500px;
     }
 
 .second-container .first-content h2{
-   font-size: 20px;
+   font-size: 25px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     color: #51752d;
@@ -266,11 +283,11 @@ a{
 }
 
 .second-container .first-content p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
     margin-right: 80px;
-    width: 400px;
+    width: 600px;
     line-height: 25px;
     color: #777777;
 }
@@ -332,14 +349,14 @@ margin-top: 20px;
 
 .why-grid .content h2{
     margin-left: 5px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
     color: #51752d; 
 }
 
 .why-grid .content p{
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
     color: #777777; 
