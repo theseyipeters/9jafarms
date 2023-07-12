@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Checkout</title>
+</head>
+<body class="checkout">
+    <div class="leftside">
+        <div class="heading">
+            <h2>My Basket</h2>
+            <h5>4 items</h5>
+        </div>
+        <hr>
+        <div class="title">
+            <p>PRODUCT DETAILS</p>
+            <div class="other-title">
+                <p>WEIGHT(kg)</p>
+                <p>PRICE</p>
+                <p>TOTAL</p>
+            </div>    
+        </div>
+        <div class="table">
+            <div class="item">
+                <div class="prod">
+                    <img src="images/chicken.svg" alt="chicken">
+                    <div class="prod-name">
+                        <h4>FRESH CHICKEN</h4>
+                        <h6>Food</h6>
+                        <button><i class="fa-regular fa-trash-can"></i> Remove item</button>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="weight">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <p>1kg</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>  
+                    <h6 class="price">₦500.00</h6>
+                    <h6 class="total">₦500.00</h6>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="prod">
+                    <img src="images/grapes.svg" alt="chicken">
+                    <div class="prod-name">
+                        <h4>FRESH CHICKEN</h4>
+                        <h6>Food</h6>
+                        <button><i class="fa-regular fa-trash-can"></i> Remove item</button>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="weight">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <p>1kg</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>  
+                    <h6 class="price">₦500.00</h6>
+                    <h6 class="total">₦500.00</h6>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="prod">
+                    <img src="images/apples.svg" alt="chicken">
+                    <div class="prod-name">
+                        <h4>FRESH CHICKEN</h4>
+                        <h6>Food</h6>
+                        <button><i class="fa-regular fa-trash-can"></i> Remove item</button>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="weight">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <p>1kg</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>  
+                    <h6 class="price">₦500.00</h6>
+                    <h6 class="total">₦500.00</h6>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="prod">
+                    <img src="images/carrot.svg" alt="chicken">
+                    <div class="prod-name">
+                        <h4>FRESH CHICKEN</h4>
+                        <h6>Food</h6>
+                        <button><i class="fa-regular fa-trash-can"></i> Remove item</button>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="weight">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <p>1kg</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>  
+                    <h6 class="price">₦500.00</h6>
+                    <h6 class="total">₦500.00</h6>
+                </div>
+               
+            </div>
+        </div>
+        <div class="button">
+            <button><i class="fa-solid fa-arrow-left-long"></i><span>   </span>Back to Shopping</button>
+        </div>
+    </div>
+    <div class="rightside">
+        <div class="heading">
+            <h3>Order Summary</h3>
+        </div>
+        <hr>
+        <form class="form">
+            <label for="card-type">Card Type</label>
+            <div class="cards">
+                <img src="images/visa.svg" alt="visa">
+                <img src="images/mastercard.svg" alt="visa">
+                <img src="images/verve.svg" alt="visa">
+            </div>
+
+            <div class="input">
+                <label for="card-number">Card Number</label>
+                <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+            </div>
+            <div class="input">
+                <label for="card-holder">Card Holder</label>
+                <input type="text" placeholder="Jermaine Doe">
+            </div>
+            <div class="card-details">
+                <div class="short-input">
+                    <label>Expiry Date:</label>
+                    <input type="date">    
+                </div>
+                <div class="short-input">
+                    <label>CVV:</label>
+                    <input type="password" placeholder="•••">    
+                </div>
+                
+            </div>
+            <div class="input">
+                <label for="card-holder">Delivery</label>
+                <select name="delivery-type" id="delivery">
+                    <option>Select Delivery Type</option>
+                    <option value="standard">Standard Delivery ₦500</option>
+                    <option value="executive">Executive Delivery ₦3000</option>
+                    <option value="pickup">Pickup from Location</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="card-holder">Coupon</label>
+                <div class="coupon">
+                    <input type="text" placeholder="Enter coupon code">
+                    <button class="button">APPLY</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="total">
+                <h4>TOTAL:</h4>
+                <h5>₦500.00</h5>
+            </div>
+
+            <button class="pay-btn">Pay now</button>
+            
+        </form>
+    </div>
+</body>
+</html>

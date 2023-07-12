@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.checkout{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+hr{
+    color: #51752D;
+}
+
+.leftside{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex: 3;
+    padding: 20px 60px;
+}
+.rightside{
+    background-color: #FEFAE0;
+    width: 100%;
+    height: 100;
+    flex: 1.5;
+    padding: 20px 60px;
+}
+
+.heading{
+    color: #51752D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.other-title{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prod{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.prod img{
+    border: .7px solid #B76B26;
+    border-radius: 6px;
+}
+.prod-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #51752D;
+    align-items: flex-start;
+}
+.prod-name h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.prod-name h6{
+    font-weight: 400;
+    font-size: 16px;
+}
+.prod-name button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.other{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.other h6{
+    font-size: 18px;
+}
+.weight{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.button button{
+    background: #51752D;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ------rightside------------- */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #51752D;
+    width: 100%;
+}
+.input input{
+    padding: 10px;
+    border: 1px solid #51752D;
+    border-radius: 6px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+select:focus{
+    outline: none;
+    /* border: none; */
+}
+.short-input input{
+    padding: 10px;
+    border: 1px solid #51752D;
+    border-radius: 6px;
+}
+input::placeholder{
+    font-size: 14px;
+    font-weight: 300;
+}
+select{
+    padding: 10px;
+    border: 1px solid #51752D;
+    border-radius: 6px;
+}
+.card-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coupon input{
+    padding: 10px;
+    border: 1px solid #51752D;
+    border-radius: 6px;
+}
+
+.pay-btn{
+    background: #51752D;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.coupon button{
+    background: #51752D;
+    color: #fff;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    margin-left: -20px;
+    /* margin-top: 20px; */
+}
+
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total h4{
+    font-size: 20px;
+}
+.total h5{
+    font-size: 25px;
+    color: rgb(223, 45, 45);
+}
